@@ -1,0 +1,68 @@
+body{
+	font-family:Century Gothic; 
+	background-color:black;
+}
+h1{
+	text-align:center; 
+	color:#02747E; 
+	font-size:120%;
+}
+img{
+	height:120px
+}
+a{
+	color:#02747E;
+}
+table{
+	margin-left:auto; 
+	margin-right:auto;
+	border-color:white
+}
+table, th, td {
+	border: 1px solid white;
+}
+
+#menu{
+	display:inline;
+	font-size:80%;
+	font-weight:bold;
+}
+.secao{
+	color:white;
+}
+.icon-top{
+	position:absolute;
+	height:20px;
+	right:20px
+}
+#blocodadospessoais{
+	position:relative;
+}
+#avatar{
+	padding-right:20px; 
+	float:left;
+}
+#historicoprofissional{
+	position:relative; 
+	width:100%;
+}
+.anoemprego{
+	position:relative;
+	float:left;
+	height:150px;
+	width:200px;
+}
+.emprego{
+	position:relative;
+	height:150px;
+}
+.empresa{
+	position:absolute;
+	top:0px;
+	left:200px;
+}
+.descricao{
+	position:absolute;
+	bottom:0px;
+	left:200px;
+}

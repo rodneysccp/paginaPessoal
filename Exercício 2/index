@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rodney</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <div id = "menu">
+        <nav>
+            <a href="#blocodadospessoais">Dados Pessoais</a>
+            <a href="#historicoprofissional">Histórico Profissional</a>
+            <a href="#escolaridade">Escolaridade</a>
+            <a href="#disciplinas">Disciplinas</a>
+        </nav>
+    </div>
+    <div id = "blocodadospessoais">
+        <nav>
+            <hr>
+            <h1>Dados Pessoais
+                <a href="#menu">
+                    <img class = "icon-top" src = "images/icon-top.png" alt = "ícone para voltar ao menu" >
+                </a>
+            </h1>
+            <hr>
+        </nav>
+        <div id = "avatar">
+            <img src = "images/eu.jpg" alt = "Foto de um cara muito bonito"> 
+            <br>
+        </div>
+
+        <div class = "secao"; id = "dadospessoais">
+            <nav>
+                <ul>
+                    <li><p>Nome: Rodney Magalhães Gonçalves de Oliveira</p></li>
+                    <li><p>Idade: 25 anos</p></li>
+                    <a href="file:///C:/Users/User/Desktop/Rodney_165008-4/Exerc%C3%ADcio%202/perfilProfissional.html">Descrição do meu perfil profissional</a><br><br>
+                    <a href="file:///C:/Users/User/Desktop/Rodney_165008-4/Exerc%C3%ADcio%202/contato.html">Contato</a>
+
+                </ul>
+                <br>
+            </nav>
+        </div>
+    </div>
+    <div class = "secao"; id = "historicoprofissional">
+        <nav>
+            <hr>
+            <h1>Histórico Profissional
+                <a href="#menu">
+                    <img class = "icon-top" src = "images/icon-top.png" alt = "ícone para voltar ao menu" >
+                </a>
+            </h1>
+            <hr>
+        </nav>
+        <ul>
+            <div class = "anoemprego">
+                <h2><li>2012 - 2012</li></h2>
+            </div>
+
+            <div class = "emprego">
+                <p class = "empresa" >
+                    <a href = "https://www.piccocamisetas.com.br/">Picco Camisetas LTDA</a>
+                    <br>
+                    Arte finalista e vendedor
+                </p>
+                <p class = "descricao">
+                    Desenvolvimento de layouts de uniformes e atendimento ao cliente
+                </p>
+            </div>
+            <div class = "anoemprego">
+                <h2><li>2014 - 2014</li></h2>
+            </div>
+            <div class = "emprego">
+                <p class = "empresa">
+                    <a href = "http://ferbrim.com.br">Ferbrim Uniformes</a>
+                    <br>
+                    Arte finalista
+                </p>
+                <p class = "descricao">
+                    Desenvolvimento de layouts de uniformes
+                </p>
+            </div>
+        </ul>
+        <br>
+    </div>
+
+    <div class = "secao"; id = "escolaridade">
+        <nav>                
+            <hr>
+            <h1>Escolaridade 
+                <a href="#menu">
+                    <img class = "icon-top" src = "images/icon-top.png" alt = "ícone para voltar ao menu" >
+                </a>
+            </h1>
+        </nav>
+        <hr>
+        <ul>
+            <li><p>Ensino fundamental: EMEF Caic Prof. Zeferino Vaz</p></li>
+            <li><p>Ensino médio: E.E. Escritora Rachel de Queiroz</p></li>
+            <li><p>Ensino superior: <a href = "http://cmp.ifsp.edu.br"> Instituto Federal de São Paulo - Campus Campinas</a></p></li>
+            <ul>
+                <li>Tecnólogo em Análise e Desenvolvimento de Sistemas (cursando)</li>
+            </ul>
+        </ul>
+        <br>
+    </div>
+    <div class = "secao"; id = "disciplinas">
+        <hr>
+        <nav>
+            <h1>Disciplinas 
+                <a href="#menu">
+                    <img class = "icon-top" src = "images/icon-top.png" alt = "ícone para voltar ao menu" >
+                </a>
+            </h1>
+        </nav>
+        <hr>
+        <table>
+            <tr>
+                <th>Disciplina</th>
+                <th>Semestre</th>
+            </tr>
+            <tr>
+                <td>Banco de Dados II</td>
+                <td>3º</td>
+            </tr>
+            <tr>
+                <td>Linguagem de Programação III</td>
+                <td>3º</td>
+            </tr>
+            <tr>
+                <td>Programação Orientada à Objeto</td>
+                <td>4º</td>
+            </tr>
+            <tr>
+                <td>Arquitetura de Software</td>
+                <td>4º</td>
+            </tr>
+            <tr>
+                <td>Desenvolvimento Web</td>
+                <td>5º</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html> 
